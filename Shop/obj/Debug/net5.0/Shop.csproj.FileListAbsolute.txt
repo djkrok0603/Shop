@@ -23,13 +23,6 @@ C:\Users\nikit\source\repos\Shop\Shop\obj\Debug\net5.0\Shop.pdb
 C:\Users\nikit\source\repos\Shop\Shop\obj\Debug\net5.0\Shop.genruntimeconfig.cache
 C:\Users\nikit\source\repos\Shop\Shop\bin\Debug\net5.0\Shop.Views.dll
 C:\Users\nikit\source\repos\Shop\Shop\bin\Debug\net5.0\Shop.Views.pdb
-C:\Users\nikit\source\repos\Shop\Shop\bin\Debug\net5.0\System.Web.Mvc.dll
-C:\Users\nikit\source\repos\Shop\Shop\bin\Debug\net5.0\System.Web.Razor.dll
-C:\Users\nikit\source\repos\Shop\Shop\bin\Debug\net5.0\System.Web.Helpers.dll
-C:\Users\nikit\source\repos\Shop\Shop\bin\Debug\net5.0\System.Web.WebPages.Deployment.dll
-C:\Users\nikit\source\repos\Shop\Shop\bin\Debug\net5.0\System.Web.WebPages.Razor.dll
-C:\Users\nikit\source\repos\Shop\Shop\bin\Debug\net5.0\System.Web.WebPages.dll
-C:\Users\nikit\source\repos\Shop\Shop\bin\Debug\net5.0\Microsoft.Web.Infrastructure.dll
 C:\Users\nikit\source\repos\Shop\Shop\obj\Debug\net5.0\Shop.RazorAssemblyInfo.cache
 C:\Users\nikit\source\repos\Shop\Shop\obj\Debug\net5.0\Shop.RazorAssemblyInfo.cs
 C:\Users\nikit\source\repos\Shop\Shop\obj\Debug\net5.0\Shop.TagHelpers.input.cache

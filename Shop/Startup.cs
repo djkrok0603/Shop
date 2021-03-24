@@ -20,16 +20,17 @@ namespace Shop
         {
             services.AddTransient<IAllCars,MockCars>();
             services.AddTransient<ICarsCategory, MockCategory>();
-            services.AddMvc();
+            services.AddMvc(options=>options.EnableEndpointRouting=false); //добавил в скобки
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IHostEnvironment env)
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
             app.UseDeveloperExceptionPage();
             app.UseStatusCodePages();
             app.UseStaticFiles();
-             app.UseMvcWithDefaultRoute();
+            app.UseMvcWithDefaultRoute();
+            //app.UseMvc();
             
 
 
