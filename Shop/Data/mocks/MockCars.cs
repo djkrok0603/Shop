@@ -1,0 +1,67 @@
+﻿using Shop.Data.interfaces;
+using Shop.Data.models;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+
+namespace Shop.Data.mocks
+{
+    public class MockCars : IAllCars    
+    {
+         private readonly ICarsCategory _categoryCars = new MockCategory();
+        public IEnumerable<Car> Cars
+        {
+            get
+            {
+                return new List<Car>
+                {
+                    new Car{ 
+                        name = "Tesla",
+                        shortDesc="Стиль и экологичность",
+                        longDesc="Красивый автомобиль, полная экологичность, скорость, проходимость",
+                        img="https://s0.rbk.ru/v6_top_pics/ampresize/media/img/0/35/755105632960350.jpg",
+                        price=45000, 
+                        isFavourite=true,
+                        avaibale=true, 
+                        Category= _categoryCars.AllCategories.First() },
+                     new Car{
+                        name = "BMW",
+                        shortDesc="классика и скорость",
+                        longDesc="Стиль, современность, проходимость, скорость",
+                        img="https://lh3.googleusercontent.com/proxy/3h38a1-pGbtBQCQ7HB4qVYRpvt06TandmJlTa_VvkJEjZT4MgPmRK8C08vBdLYMoTorfwcbz8UmrihnHZGKZJ5mQdGw",
+                        price=10000,
+                        isFavourite=false,
+                        avaibale=true,
+                        Category= _categoryCars.AllCategories.Last() },
+                      new Car{
+                        name = "Mercedes S",
+                        shortDesc="Классика улучшенная временем",
+                        longDesc="Стиль, современность, проходимость, скорость",
+                        img="https://sales.mercedes-mb-belyaevo.ru/upload/img/2019/04/08/5cab474aedcde.jpg",
+                        price=37700,
+                        isFavourite=true,
+                        avaibale=true,
+                        Category= _categoryCars.AllCategories.First() },
+                       new Car{
+                        name = "VW",
+                        shortDesc="Безопастность и своременность",
+                        longDesc="Конкурентный автомобиль, безопастность привыше всего...",
+                        img="https://cdnimg.rg.ru/img/content/172/83/66/volkswagen_touareg_v6_tdi_368_d_850.jpeg",
+                        price=15000,
+                        isFavourite=false,
+                        avaibale=true,
+                        Category= _categoryCars.AllCategories.Last() },
+                };
+            }
+        }
+        
+                
+        public IEnumerable<Car> getFavCars { get ; set ; }
+
+        public Car getObjectCar(int carId)
+        {
+            throw new NotImplementedException();
+        }
+    }
+}

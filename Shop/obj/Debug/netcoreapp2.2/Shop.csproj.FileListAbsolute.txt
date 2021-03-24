@@ -1,0 +1,4 @@
+C:\Users\nikit\source\repos\Shop\Shop\obj\Debug\netcoreapp2.2\Shop.csprojAssemblyReference.cache
+C:\Users\nikit\source\repos\Shop\Shop\obj\Debug\netcoreapp2.2\Shop.AssemblyInfoInputs.cache
+C:\Users\nikit\source\repos\Shop\Shop\obj\Debug\netcoreapp2.2\Shop.AssemblyInfo.cs
+C:\Users\nikit\source\repos\Shop\Shop\obj\Debug\netcoreapp2.2\Shop.csproj.CoreCompileInputs.cache
