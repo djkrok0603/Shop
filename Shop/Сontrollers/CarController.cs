@@ -22,6 +22,7 @@ namespace Shop.Сontrolers
         }
         public ViewResult List()
         {
+            ViewBag.Title = "Страница с автомобилями";
             CarsListViewModel obj = new CarsListViewModel();
             obj.allCars = _allCars.Cars;
             obj.currCategory = "Автомобили";

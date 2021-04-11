@@ -35,3 +35,6 @@ C:\Users\nikit\source\repos\Shop\Shop\obj\Debug\net5.0\Shop.csproj.CopyComplete
 C:\Users\nikit\source\repos\Shop\Shop\bin\Debug\net5.0\Microsoft.DotNet.PlatformAbstractions.dll
 C:\Users\nikit\source\repos\Shop\Shop\bin\Debug\net5.0\Microsoft.Extensions.DependencyModel.dll
 C:\Users\nikit\source\repos\Shop\Shop\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\nikit\source\repos\Shop\Shop\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\nikit\source\repos\Shop\Shop\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\nikit\source\repos\Shop\Shop\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
