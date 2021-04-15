@@ -44,7 +44,7 @@ namespace Shop.Data.mocks
                         avaibale=true,
                         Category= _categoryCars.AllCategories.First() },
                        new Car{
-                        name = "VW",
+                        name = "Volkswagen",
                         shortDesc="Безопастность и своременность",
                         longDesc="Конкурентный автомобиль, безопастность привыше всего...",
                         img="/img/VW.jpeg",
